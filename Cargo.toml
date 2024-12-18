@@ -37,7 +37,7 @@ http-endpoint = {version = "0.6", default-features = false}
 hyper = {version = "1.1", default-features = false, features = ["client", "http1"]}
 hyper-util = {version = "0.1.3", default-features = false, features = ["client", "client-legacy", "http1", "tokio"]}
 hyper-tls = {version = "0.6", default-features = false}
-num-decimal = {version = "0.2.4", default-features = false, features = ["num-v04", "serde"]}
+num-decimal = { git = "https://github.com/davnotdev/num-decimal", rev = "247008c90841866c72c4add10daf61539b964f94", default-features = false, features = ["num-v04", "serde"]}
 serde = {version = "1.0.103", features = ["derive"]}
 serde_json = {version = "1.0", default-features = false, features = ["std"]}
 serde_urlencoded = {version = "0.7", default-features = false}
